@@ -11,7 +11,6 @@ G.add_weighted_edges_from([
     ("Whitefield", "Electronic City", 6),
     ("Electronic City", "Koramangala", 4),
     ("Koramangala", "MG Road", 7),
-    ("Airport","Metro",3),
-    ("Railway Station","Airport",5)
+    ("Airport","Metro",3)
 
 ])
