@@ -13,14 +13,14 @@ def draw_graph(G, shortest_path=None):
         G,
         pos,
         node_color="skyblue",
-        node_size=2500
+        node_size=7500
     )
 
     # Draw edges
     nx.draw_networkx_edges(
         G,
         pos,
-        width=2
+        width=5
     )
 
     # Draw labels
